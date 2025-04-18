@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Renor - Лучший выбор</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            color: #333;
+            background-color: #f9f9f9;
+        }
+        
+        header {
+            background: linear-gradient(135deg, #1e5799 0%, #207cca 51%, #2989d8 100%);
+            color: white;
+            text-align: center;
+            padding: 2rem 0;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+        }
+        
+        .tagline {
+            font-size: 1.2rem;
+            opacity: 0.9;
+        }
+        
+        section {
+            padding: 3rem 0;
+            background: white;
+            margin: 20px 0;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+        }
+        
+        h2 {
+            color: #2989d8;
+            text-align: center;
+            margin-bottom: 2rem;
+            font-size: 2rem;
+        }
+        
+        .advantages {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            gap: 20px;
+        }
+        
+        .advantage {
+            flex: 1;
+            min-width: 250px;
+            padding: 20px;
+            background: #f5f9ff;
+            border-radius: 8px;
+            text-align: center;
+            transition: transform 0.3s;
+        }
+        
+        .advantage:hover {
+            transform: translateY(-5px);
+        }
+        
+        .advantage-icon {
+            font-size: 3rem;
+            color: #2989d8;
+            margin-bottom: 1rem;
+        }
+        
+        .advantage h3 {
+            color: #1e5799;
+        }
+        
+        .cta {
+            text-align: center;
+            padding: 4rem 0;
+            background: linear-gradient(135deg, #2989d8 0%, #207cca 51%, #1e5799 100%);
+            color: white;
+        }
+        
+        .install-btn {
+            display: inline-block;
+            background: #ff6b00;
+            color: white;
+            padding: 15px 30px;
+            font-size: 1.2rem;
+            border-radius: 50px;
+            text-decoration: none;
+            margin-top: 20px;
+            transition: all 0.3s;
+            box-shadow: 0 4px 15px rgba(255,107,0,0.3);
+            border: none;
+            cursor: pointer;
+        }
+        
+        .install-btn:hover {
+            background: #ff8c00;
+            transform: translateY(-3px);
+            box-shadow: 0 6px 20px rgba(255,107,0,0.4);
+        }
+        
+        footer {
+            text-align: center;
+            padding: 2rem 0;
+            background: #1e5799;
+            color: white;
+        }
+        
+        @media (max-width: 768px) {
+            .advantages {
+                flex-direction: column;
+            }
+            
+            h1 {
+                font-size: 2rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Renor</h1>
+            <p class="tagline">Лучший выбор приложений для русскоязычных пользователей</p>
+        </div>
+    </header>
+    
+    <section class="container">
+        <h2>Почему выбирают нас?</h2>
+        <div class="advantages">
+            <div class="advantage">
+                <div class="advantage-icon">📱</div>
+                <h3>Локализованный контент</h3>
+                <p>Все приложения полностью адаптированы для русскоязычных пользователей с учетом культурных особенностей.</p>
+            </div>
+            
+            <div class="advantage">
+                <div class="advantage-icon">⚡</div>
+                <h3>Высокая скорость</h3>
+                <p>Быстрая загрузка приложений благодаря оптимизированным серверам в России и СНГ.</p>
+            </div>
+            
+            <div class="advantage">
+                <div class="advantage-icon">🛡️</div>
+                <h3>Безопасность</h3>
+                <p>Все приложения проходят тщательную проверку на вирусы и вредоносный код.</p>
+            </div>
+        </div>
+        
+        <div class="advantages" style="margin-top: 30px;">
+            <div class="advantage">
+                <div class="advantage-icon">💰</div>
+                <h3>Лучшие цены</h3>
+                <p>Специальные условия для пользователей из России и СНГ с локальными способами оплаты.</p>
+            </div>
+            
+            <div class="advantage">
+                <div class="advantage-icon">📞</div>
+                <h3>Поддержка 24/7</h3>
+                <p>Круглосуточная поддержка на русском языке по любым вопросам.</p>
+            </div>
+            
+            <div class="advantage">
+                <div class="advantage-icon">🎁</div>
+                <h3>Эксклюзивы</h3>
+                <p>Доступ к приложениям и функциям, недоступным в других магазинах.</p>
+            </div>
+        </div>
+    </section>
+    
+    <section class="cta">
+        <div class="container">
+            <h2 style="color: white;">Готовы попробовать?</h2>
+            <p style="font-size: 1.2rem; max-width: 700px; margin: 0 auto;">Установите наш магазин приложений прямо сейчас и получите доступ к тысячам лучших приложений, специально отобранных для вас!</p>
+            <a href="https://www.icloud.com/shortcuts/01961f2c806e4cddb1434c99e2032c70" class="install-btn">Установить сейчас</a>
+        </div>
+    </section>
+    
+    <footer>
+        <div class="container">
+            <p>© 2023 Русский Магазин Приложений. Все права защищены.</p>
+        </div>
+    </footer>
+</body>
+</html>
